@@ -6,6 +6,8 @@ import dev.lukmann.data.Car;
 
 public class CarApp {
     public static void main(String[] args) {
+        // Interface
+
         Car car = new Avanza();
         System.out.println(car.getTire());
         car.drive();

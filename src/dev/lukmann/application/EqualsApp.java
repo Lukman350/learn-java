@@ -2,6 +2,8 @@ package dev.lukmann.application;
 
 public class EqualsApp {
     public static void main(String[] args) {
+        // equals() method override
+
         String first = "Lukman";
         first = first + " Hakim";
 

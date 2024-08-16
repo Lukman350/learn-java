@@ -4,6 +4,8 @@ import dev.lukmann.data.Category;
 
 public class CategoryApp {
     public static void main(String[] args) {
+        // Setters & Getters
+
         Category category = new Category();
 
         category.setId("7891498");

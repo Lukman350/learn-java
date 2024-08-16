@@ -4,6 +4,8 @@ import dev.lukmann.data.Product;
 
 public class ProductApp {
     public static void main(String[] args) {
+        // hashCode() method override
+
         Product product = new Product("Macbook Pro", 9000000);
         System.out.println(product.toString());
         Product product2 = new Product("Macbook Pro", 9000000);
